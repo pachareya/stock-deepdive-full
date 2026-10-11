@@ -1,0 +1,12 @@
+{
+  "name": "pachareya-tools",
+  "description": "ส่วนต่อยอดของ stock-deepdive-lite: deep dive หุ้นครบวงจร (งบยื่นจริง + คลิป Opportunity Day + เทียบคู่แข่ง + ตรวจเลขอิสระ + Dashboard/ภาคผนวก + เครื่องคิดสถานการณ์)",
+  "owner": { "name": "pachareya" },
+  "plugins": [
+    {
+      "name": "stock-deepdive-full",
+      "source": "./plugins/stock-deepdive-full",
+      "description": "deep dive หุ้นครบ 5 ขั้นต่อยอดจาก stock-deepdive-lite — ต้องติดตั้ง stock-deepdive-lite จาก BoonchuTummeng/stock-deepdive ก่อน"
+    }
+  ]
+}

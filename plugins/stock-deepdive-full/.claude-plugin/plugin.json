@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "stock-deepdive-full",
+  "displayName": "Stock DeepDive Full",
+  "version": "1.0.0",
+  "description": "deep dive หุ้นครบ 5 ขั้น ต่อยอดจาก stock-deepdive-lite: งบยื่นจริง + คลิป Opportunity Day + เทียบคู่แข่ง + ตรวจเลขอิสระ + Dashboard/ภาคผนวก + เครื่องคิดสถานการณ์ (ต้องติดตั้ง stock-deepdive-lite ก่อน)",
+  "author": { "name": "pachareya" },
+  "license": "MIT",
+  "keywords": ["stocks", "equity-research", "thai-stocks", "set"]
+}
