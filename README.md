@@ -4,6 +4,8 @@ deep dive หุ้นครบวงจร ต่อยอดจาก `stock-d
 
 ข้อมูลประกอบการศึกษา ไม่ใช่คำแนะนำการลงทุน
 
+ต่อยอดจาก [stock-deepdive-lite](https://github.com/BoonchuTummeng/stock-deepdive) ของคุณบุญชู (BoonchuTummeng) — ขอบคุณเจ้าของผลงานต้นแบบ
+
 ## ติดตั้ง (Claude Desktop แท็บ Code)
 
 1. เปิดแอป Claude → แท็บ **Code** → เริ่ม session แบบ local
