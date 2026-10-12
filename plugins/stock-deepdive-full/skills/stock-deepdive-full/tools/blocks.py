@@ -3,7 +3,7 @@
 Usage: python3 blocks.py <file.html>   -> prints: section index tag class chars head"""
 import re,sys
 tagre=re.compile(r'<(/?)([a-zA-Z0-9]+)([^>]*?)(/?)>')
-SELF={'br','hr','img','meta','link','input','circle','line','rect','polyline','path'}
+SELF={'col','br','hr','img','meta','link','input','circle','line','rect','polyline','path'}
 def children(s):
     out=[];depth=0;start=None
     for m in tagre.finditer(s):
@@ -20,7 +20,7 @@ def children(s):
     return out
 def blocks(H):
     d={}
-    for sm in re.finditer(r'<section id="(s\d+)">(.*?)</section>',H,re.S):
+    for sm in re.finditer(r'<section id="(s\d+[a-z]?)">(.*?)</section>',H,re.S):
         off=sm.start(2)
         for k,(a,b) in enumerate(children(sm.group(2))): d[(sm.group(1),k)]=(off+a,off+b)
     return d
